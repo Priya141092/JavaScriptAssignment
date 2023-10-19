@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Java Script Playground</h1>
+<p>Use below java script to try out learning pathway Java Script assignment</p>
+<p id="demo"></p>
+<script>
+var str1 = "Hi this is my string manipulation String";
+var str2 = "Hi lets do some manipuations here";
+document.write("My charat function is:" ,str1.charAt(7)+"<br>");
+document.write("My concat function is:" ,str1.concat(str2)+"<br>");
+document.write("My index of function is", str1.indexOf("s")+"<br>");
+document.write("Match test", str1.match("string")+"<br>");
+document.write("replace test", str1.replace("This","That")+"<br>");
+document.write("search test", str1.search("string")+"<br>");
+document.write("Split test", str1.split("_")+"<br>");
+document.write("substring test", str1.substr(1,4)+"<br>");
+document.write("substring test", str1.substring(1,4)+"<br>");
+document.write("Upper case", str1.toUpperCase()+"<br>");
+document.write("Value of", str1.valueOf()+"<br>");
+</script>
+</body>
+</html>
